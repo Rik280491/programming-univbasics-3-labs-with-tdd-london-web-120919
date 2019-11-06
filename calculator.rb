@@ -1,11 +1,6 @@
 # Add your variables here
 
-describe "./calculator.rb" do
 
-  it "first_number" do
-    first_number = "first_number"
-    expect(first_number).to be_an(Integer).or be_a(Float)
-  end
 
   it "contains a local variable called second_number that is assigned to a number that isn't 0" do
     second_number = get_variable_from_file('./calculator.rb', "second_number")
