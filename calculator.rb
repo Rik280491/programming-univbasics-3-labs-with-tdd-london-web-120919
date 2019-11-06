@@ -1,3 +1,3 @@
-la# Add your variables here
+# Add your variables here
 
 first_number = Integer || Float
