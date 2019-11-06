@@ -3,7 +3,7 @@
 describe "./calculator.rb"
 
   it "first_number" do
-    first_number = './calculator.rb', "first_number"
+    first_number = "./calculator.rb", "first_number"
   
     expect(first_number).to be_an(integer).or be_a(float)
   end
