@@ -3,9 +3,10 @@
 describe "./calculator.rb"
 
   it "first_number" do
-  first_number = './calculator.rb', "first_number"
+    first_number = './calculator.rb', "first_number"
   
-  
+    expect(first_number).to be_an(integer).or be_a(float)
+  end
 
 
   it "contains a local variable called second_number that is assigned to a number that isn't 0" do
